@@ -1,0 +1,45 @@
+# FastAPI & Server
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Core Libraries
+pydantic==2.7.4
+pydantic-settings==2.2.1
+
+sqlalchemy==2.0.25
+python-dotenv==1.0.1
+requests==2.31.0
+python-dateutil==2.8.2
+passlib==1.7.4
+python-jose==3.3.0
+
+# NLP / ML
+transformers==4.37.2
+accelerate==0.26.1
+sentencepiece==0.1.99
+timm==0.9.12
+huggingface-hub==0.20.3
+protobuf==4.25.2
+pillow==10.2.0
+
+# LangChain (stable versions + no conflicts)
+langchain==0.2.14
+langchain-community==0.2.12
+langsmith>=0.1.17
+
+# OpenAI
+openai==1.44.0
+tiktoken==0.5.2
+
+# Lightning
+
+lightning-cloud==0.5.60
+
+
+lightning>=2.6.0
+fastapi>=0.95.0
+uvicorn>=0.21.0
+python-multipart>=0.0.5
+setuptools<81
